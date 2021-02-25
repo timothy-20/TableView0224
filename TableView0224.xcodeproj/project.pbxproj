@@ -16,6 +16,8 @@
 		994213CB25E6337300472733 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 994213CA25E6337300472733 /* main.m */; };
 		994213D525E6337300472733 /* TableView0224Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 994213D425E6337300472733 /* TableView0224Tests.m */; };
 		994213E025E6337300472733 /* TableView0224UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 994213DF25E6337300472733 /* TableView0224UITests.m */; };
+		994213F025E6340F00472733 /* UserTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 994213EF25E6340F00472733 /* UserTableView.m */; };
+		994213F325E727DC00472733 /* UserTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 994213F225E727DC00472733 /* UserTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		994213DB25E6337300472733 /* TableView0224UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableView0224UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		994213DF25E6337300472733 /* TableView0224UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableView0224UITests.m; sourceTree = "<group>"; };
 		994213E125E6337300472733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		994213EE25E6340F00472733 /* UserTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserTableView.h; sourceTree = "<group>"; };
+		994213EF25E6340F00472733 /* UserTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserTableView.m; sourceTree = "<group>"; };
+		994213F125E727DC00472733 /* UserTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserTableViewCell.h; sourceTree = "<group>"; };
+		994213F225E727DC00472733 /* UserTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,7 @@
 		994213B725E6336F00472733 /* TableView0224 */ = {
 			isa = PBXGroup;
 			children = (
+				994213ED25E633D000472733 /* TableView */,
 				994213B825E6336F00472733 /* AppDelegate.h */,
 				994213B925E6336F00472733 /* AppDelegate.m */,
 				994213BB25E6336F00472733 /* SceneDelegate.h */,
@@ -135,6 +142,17 @@
 				994213E125E6337300472733 /* Info.plist */,
 			);
 			path = TableView0224UITests;
+			sourceTree = "<group>";
+		};
+		994213ED25E633D000472733 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				994213EE25E6340F00472733 /* UserTableView.h */,
+				994213EF25E6340F00472733 /* UserTableView.m */,
+				994213F125E727DC00472733 /* UserTableViewCell.h */,
+				994213F225E727DC00472733 /* UserTableViewCell.m */,
+			);
+			path = TableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +286,8 @@
 			files = (
 				994213C025E6336F00472733 /* ViewController.m in Sources */,
 				994213BA25E6336F00472733 /* AppDelegate.m in Sources */,
+				994213F325E727DC00472733 /* UserTableViewCell.m in Sources */,
+				994213F025E6340F00472733 /* UserTableView.m in Sources */,
 				994213CB25E6337300472733 /* main.m in Sources */,
 				994213BD25E6336F00472733 /* SceneDelegate.m in Sources */,
 			);
